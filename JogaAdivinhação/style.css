@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+  font-size: 1.6rem;
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+body,button,input{
+  font-family: "DM Sans", sans-serif
+}
+
+main {
+  box-shadow: 0 .2rem .4rem  rgba(0, 0, 0, 0.10);
+  background: #FFF;
+  border-radius: .6rem;
+  padding: 4.8rem 6.4rem 6.4rem;
+  width: min(42.8rem,90%);
+  margin-top: -12rem;
+
+  text-align: center;
+
+
+}
+h1,p {
+  color: #34355b;
+}
+p{
+  opacity: .8;
+}
+
+h1{
+
+font-family: "Montserrat",sans-serif;
+font-size: 2.4rem;
+margin-bottom: 1.6rem;
+}
+
+form{
+  margin-top: 48px;
+  display: flex; /* juntar o enput e o button */
+  justify-content: center; /*alinhou o form ao meio Ele e uma propiedade do display flex */
+
+}
+
+input,button{
+  border: none;
+  padding: 1.6rem;
+}
+
+input{
+  background-color: #DCE2E9;
+  width: 5rem;
+}
+
+button{
+  background-color: #7879F1;
+  color: white;
+  font-weight: bold;
+}
