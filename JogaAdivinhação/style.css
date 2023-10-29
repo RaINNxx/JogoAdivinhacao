@@ -20,6 +20,19 @@ body{
 body,button,input{
   font-family: "DM Sans", sans-serif
 }
+button{
+  background-color: #7879F1;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 .4rem .4rem 0;
+  cursor: pointer;
+
+  transition:  background .3s; /*deixa suave a mudança de cor quando passamos o mouse em cima(hover) */
+}
+
+button:hover {
+  background-color: #6464cf;
+}
 
 main {
   box-shadow: 0 .2rem .4rem  rgba(0, 0, 0, 0.10);
@@ -40,6 +53,10 @@ p{
   opacity: .8;
 }
 
+.hide{
+  display: none;
+}
+/* screen 1 */
 h1{
 
 font-family: "Montserrat",sans-serif;
@@ -62,10 +79,20 @@ input,button{
 input{
   background-color: #DCE2E9;
   width: 5rem;
+  border-radius: .4rem 0 0 .4rem;
 }
 
-button{
-  background-color: #7879F1;
-  color: white;
-  font-weight: bold;
+
+
+/* screen 2 */
+
+h2{
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 3.3rem; /* subimos o h2 em cima do button */
+  
+}
+
+.screen2 button {
+  border-radius: .4rem;
 }
